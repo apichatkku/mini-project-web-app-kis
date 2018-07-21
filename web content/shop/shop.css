@@ -1,0 +1,169 @@
+/********************************************** Menu sex **********************************************************************/
+nav.sexbar{
+	width:100%;
+	height:40px;
+	padding-left:15;
+}
+
+nav.sexbar ul{
+	padding:5px ;
+	list-style:none;
+}
+
+nav.sexbar ul li.sexheader{
+	float:left;
+	margin-left:1;
+	text-align:center;
+	font-size:36px;
+	color:#fff;
+	text-decoration:none;
+	padding:0px 80px;
+	line-height:55px;
+	height:55;
+	background-color:#F60;
+}
+
+nav.sexbar ul li>a{
+	float:left;
+	margin-left:5;
+	text-align:center;
+	font-size:24px;
+	color:#CCC;
+	padding:0px 30px;
+	text-decoration:none;
+	line-height:55px;
+	height:55;
+	background-color:#333;
+}
+nav.sexbar ul li>a:hover{
+	color:#F00;
+	background-color:#F90;
+	//border-radius:7px;
+}
+nav.sexbar ul li.active>a{
+	color:#F00;
+	background-color:#000;
+	//border-radius:7px;
+}
+nav.sexbar ul li.active>a:hover{
+	color:#F00;
+	background-color:#F90;
+	//border-radius:7px;
+}
+
+/********************************************************* Menu Type **********************************************************/
+
+nav.typebar{
+	width:100%;
+	height:40px;
+	padding-left:15px;
+	padding-top:1px;
+}
+
+nav.typebar ul{
+	padding:0px ;
+	list-style:none;
+}
+
+nav.typebar ul li.typeheader{
+	float:left;
+	margin-left:1;
+	margin-right:3;
+	text-align:center;
+	font-size:24px;
+	color:#fff;
+	text-decoration:none;
+	padding:0px 55px;
+	line-height:40px;
+	height:40;
+	background-color:#09C;
+}
+
+nav.typebar ul li>a{
+	float:left;
+	margin-left:2;
+	text-align:center;
+	color:#ccc;
+	padding:0px 30px;
+	text-decoration:none;
+	line-height:40px;
+	height:40;
+	background-color:#333;
+}
+nav.typebar ul li.active>a{
+	color:#F00;
+	background-color:#000;
+	//border-radius:7px;
+	font-size:20px;
+}
+nav.typebar ul li >a:hover{
+	color:#069;
+	background-color:#0CF;
+	//border-radius:7px;
+	font-size:20px;
+}
+nav.typebar ul li.active>a:hover{
+	color:#069;
+	background-color:#0CF;
+	//border-radius:7px;
+	font-size:20px;
+}
+
+/********************************************************* Menu brand **********************************************************/
+
+nav.brandbar{
+	width:90%;
+	height:40px;
+	padding:5%;
+}
+
+nav.brandbar ul{
+	padding:0px ;
+	list-style:none;
+}
+
+nav.brandbar ul li.brandheader{
+	float:left;
+	margin-left:1;
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+	text-decoration:none;
+	padding:0px;
+	width:98%;
+	line-height:40px;
+	height:40;
+	background-color:#EFA710;
+}
+
+nav.brandbar ul li>a{
+	float:left;
+	margin-left:1;
+	text-align:center;
+	color:#ccc;
+	padding:0px 0px;
+	text-decoration:none;
+	line-height:40px;
+	font-size:13px;
+	width:98%;
+	height:40;
+	background-color:#333;
+}
+nav.brandbar ul li>a:hover{
+	color:#F60;
+	background-color:#FF6;
+	//border-radius:7px;
+	font-size:16px;
+}
+nav.brandbar ul li.active>a{
+	color:#F00;
+	background-color:#000;
+	//border-radius:7px;
+	font-size:16px;
+}
+nav.brandbar ul li.active>a:hover{
+	color:#F60;
+	background-color:#FF6;
+	//border-radius:7px;
+	font-size:16px;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+  font-family: 'rsuregular', sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #3a4aa7;
+}
+td{
+  font-family: 'rsulight', sans-serif;
+  font-size: 25px;
+}
+p.head{
+  font-family: 'rsubold', sans-serif;
+  font-size: 45px;
+}
+
+div.main{
+  margin-top: 110px;
+}
+div.main2{
+  margin-top: 40px;
+}
+div.main3{
+  height: 85px;
+}

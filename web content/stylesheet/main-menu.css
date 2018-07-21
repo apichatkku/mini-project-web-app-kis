@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*---------------------------------------------------
+	3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+	left: 0;
+	right: 0;
+	background: #dedede;
+	margin-top: 0px;
+}
+
+		#section-topbar a{
+		  color: #9c9c9c;
+		  font-family: 'rsubold', sans-serif;
+		      font-size: 25px;
+
+		}
+		#section-topbar table{
+		  color: #9c9c9c;
+		  font-family: 'rsubold', sans-serif;
+		      font-size: 25px;
+		      line-height: 85px
+
+		}
+		#section-topbar td{
+		  color: #9c9c9c;
+		  font-family: 'rsubold', sans-serif;
+		      font-size: 25px;
+
+		}
+		#section-topbar a.hed{
+		  color: #9c9c9c;
+		  font-family: 'z_aristaregular', sans-serif;
+		      font-size: 25px;
+
+		}
+		#section-topbar a:hover {
+		  color: #606060;      
+		}
+
+#topbar-inner {
+	width: 1000px;
+	line-height: 85px;
+}
+/*---------------------------------------------------
+	3.1 Topbar2
+---------------------------------------------------*/
+
+#section-topbar2 {
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	overflow: visible;
+}
+#section-topbar2 a {
+  color: #fff;
+}
+
+#topbar-inner2 {
+	background: #919191;
+	line-height: 0;
+	text-align: center;
+	background: rgba(100,100,100,0.5);
+}
+
+#section-topbar2 ul#nav {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	zoom:1;
+	*display: inline;
+}
+
+
+#section-topbar2 ul#nav > li {
+	display: block;
+    float: left;
+    padding: 0;
+    width: 100px;
+}
+				
+
+#section-topbar2 ul#nav a.menu1 {
+  display: block;
+  font: normal 20px "rsuregular", sans-serif;
+  text-decoration: none;
+  padding: 10px;
+}
+
+	#section-topbar2 ul#nav a:hover {
+			background: #000000;
+			background: rgba(100,100,100,0.4);
+			width: 100px;
+			/*border-left: 5px solid #ff0000;*/
+		}
+	#section-topbar2 ul#nav a:visited {
+		background: #000000;
+		background: rgba(100,100,100,0.4);
+			width: 100px;
+		}

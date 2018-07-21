@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+/* unvisited link */
+
+body{
+	color: #9c9c9c;
+		  font-family: 'rsubold', sans-serif;
+		      font-size: 35px;
+}
+
+
+div.topcart{
+	right: 0;
+	left: 0;
+
+}
+#topcart2{
+	margin-top: 50px;
+}
+#topcart2 div.topcart3{
+
+	height: 50px;
+	background-color: #dedede;
+	color: #9c9c9c;
+		  font-family: 'rsubold', sans-serif;
+		      font-size: 35px;
+}
+#topcart2 p.h{
+	margin-left: 40px;
+}
+
+#topcart2 p.body1{
+	color: #db214d;
+		  font-family: 'rsubold', sans-serif;
+		      font-size: 28px;
+}
+
+
+						#topcart4{
+							background-color: #dedede;
+							color: #9c9c9c;
+								  font-family: 'rsubold', sans-serif;
+								      font-size: 35px;
+						}
+						#topcart4.in{
+							text-align: center;
+							color: #528e12;
+						}
+
+
+a:link {
+	color: #2FC4B5;
+	text-decoration:none;
+	font-size: 25px;
+}
+
+/* visited link */
+a:visited {
+	color: #2FC4B5;
+}
+
+/* mouse over link */
+a:hover {
+	color: pink;
+}
+
+/* selected link */
+a:active {
+	color: black;
+	background-color: pink;
+}
+
+
+a.b1:link {
+	color: #FF9966;
+	text-decoration:none;
+}
+
+/* visited link */
+a.b1:visited {
+	color: #FF9966;
+}
+
+/* mouse over link */
+a.b1:hover {
+	color: pink;
+}
+
+/* selected link */
+a.b1:active {
+	color: black;
+	background-color: pink;
+}
+
+
+a.d2:link {
+	color: #F00;
+	text-decoration:none;
+}
+
+/* visited link */
+a.d2:visited {
+	color: #F00;
+}
+
+/* mouse over link */
+a.d2:hover {
+	color: pink;
+	background-color:#F00;
+}
+
+/* selected link */
+a.d2:active {
+	color: black;
+	background-color: pink;
+}
